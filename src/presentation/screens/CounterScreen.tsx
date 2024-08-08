@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
-import PrimaryButton from "../../components/shared/PrimaryButton";
+import PrimaryButton from "../components/shared/PrimaryButton";
 
 export const CounterScreen = () => {
   const [count, setCount] = useState<number>(0);
