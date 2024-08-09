@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
 import { Button, FAB } from "react-native-paper";
 import { globalStyles } from "../theme/global.styles";
-
 import Icon from "react-native-vector-icons/Ionicons";
 
 export const CounterScreenMaterial = () => {
