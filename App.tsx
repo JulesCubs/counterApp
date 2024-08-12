@@ -7,6 +7,9 @@ import IonIcon from "react-native-vector-icons/Ionicons";
 import BoxModelObject from "./src/presentation/screens/BoxModelObject";
 import DimensionsScreen from "./src/presentation/screens/DimensionsScreen";
 import PositionScreen from "./src/presentation/screens/PositionScreen";
+import FlexScreen from "./src/presentation/screens/FlexScreen";
+import FlexDirectionScreen from "./src/presentation/screens/FlexDirectionScreen";
+import { AlginScreen } from "./src/presentation/screens/AlignScreen";
 
 export default function App() {
   return (
@@ -22,7 +25,10 @@ export default function App() {
           {/* <CounterScreenMaterial /> */}
           {/* <BoxModelObject /> */}
           {/* <DimensionsScreen /> */}
-          <PositionScreen />
+          {/* <PositionScreen /> */}
+          {/* <FlexScreen /> */}
+          {/* <FlexDirectionScreen /> */}
+          <AlginScreen />
         </View>
       </SafeAreaView>
     </PaperProvider>
@@ -31,9 +37,9 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     // backgroundColor: "#fff",
-    // alignItems: "center",
-    // justifyContent: "center",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
